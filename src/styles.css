@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    position: static !important;
+    overflow: auto !important;
+    overflow-y: auto !important;
+}
+@media screen and (max-width: 360px) {
+    body{
+        min-width: 100%;
+    }
+}
